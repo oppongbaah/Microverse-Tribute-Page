@@ -1,4 +1,4 @@
-.container {
+.container,.main-img,#tribute-info {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -9,3 +9,15 @@
 	width: auto;
 	height: 200px;
 }
+
+ul {
+	max-width: 500px;
+	margin: 0 auto 40px auto;
+	text-align: left;
+	line-height: 1.6;
+  }
+  
+li {
+	margin: 15px 0;
+  }
+
